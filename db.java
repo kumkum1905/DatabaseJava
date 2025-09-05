@@ -1,4 +1,5 @@
 /*
+5 SEPT 2025 -> connection maing
 data -> file -> Database
 Need manager to maintain the DB. EG: orcale,MySQL.
 .java -> use for business logic (How u wanna Process data)
