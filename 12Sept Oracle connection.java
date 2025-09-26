@@ -21,7 +21,7 @@ class DB{
 		//Load Driver Class
 		Class.forName("oracle.jdbc.Driver.OracleDriver");
 		//Create connection
-		Connection con = DriverManager.getConnection("jdbc:oracle:this:@localhost:1521:XE","system","system");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","system");
 
 		System.out.println(con);
 
