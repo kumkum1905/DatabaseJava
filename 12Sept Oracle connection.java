@@ -19,7 +19,7 @@ import java.sql.* ;
 class DB{
 	public static void main(String[] args) throws ClassNotFoundException, SQLException{
 		//Load Driver Class
-		Class.forName("oracle.jdbc.Driver.OracleDriver");
+		Class.forName("oracle.jdbc.driver.OracleDriver");
 		//Create connection
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","system");
 
